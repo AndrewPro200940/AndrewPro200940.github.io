@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #5C00AE;
+  
+}
+
+  h1 {
+  color: white;
+  font-size: 350%
+}
+
+  h2 {
+  color: white;
+  font-size: 200%
+}
+
+ p {
+  color: white;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color:  #7a00e6;
+  color: black;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color:  #7a00e6;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 400px) {
+  .menu a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.menu a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.menu a:hover {
+  background-color:  #8700ff;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.menu {
+  overflow: hidden;
+  background-color:  #8700ff;
+}
+
+/* Style the navigation bar links */
+.menu a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+a {
+  color: white;
+  font-size: 115%
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
